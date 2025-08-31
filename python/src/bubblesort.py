@@ -33,11 +33,3 @@ def bubble_largest_element(end, i, j, seq):
         j += 1
         i += 1
 
-
-sorted_sequence = [6, 5, 3, 1, 8, 7, 2, 4]
-sort(sorted_sequence)
-print(sorted_sequence)
-
-sequence_snapshot = [6, 5, 3, 1, 8, 7, 2, 4]
-bubble_largest_element(7, 0, 1, sequence_snapshot)
-print(sequence_snapshot)
