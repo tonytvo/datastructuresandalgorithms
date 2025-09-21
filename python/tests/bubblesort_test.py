@@ -1,19 +1,14 @@
-import unittest
-import sys
-import os
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
-import bubblesort as bublesort
+import pytest
+from src.bubblesort import sort
+import src.bubblesort as bubblesort
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
+class TestBubbleSort:
+    def test_sort_6_should_be_move_to_the_third_last_element(self):
         sorted_sequence = [6, 5, 3, 1, 8, 7, 2, 4]
-        bublesort.sort(sorted_sequence)
-        self.assertEqual(sorted_sequence, [1, 2, 3, 4, 6, 5, 6, 8], sorted_sequence)
+        sort(sorted_sequence)
+        assert sorted_sequence == [1, 2, 3, 4, 5, 6, 7, 8]
 
+    def test_sort_should_bubble_largest_element_8_to_last_index(self):
         sequence_snapshot = [6, 5, 3, 1, 8, 7, 2, 4]
-        bublesort.bubble_largest_element(7, 0, 1, sequence_snapshot)
-        self.assertEqual([6, 5, 3, 1, 7, 2, 4, 8], sequence_snapshot)
-        self.assertEqual(True, False)  # add assertion here
-
-if __name__ == '__main__':
-    unittest.main()
+        bubblesort.bubble_largest_element(7, 0, 1, sequence_snapshot)
+        assert sequence_snapshot == [5, 3, 1, 6, 7, 2, 4, 8]

@@ -6,10 +6,10 @@ from unittest.util import sorted_list_difference
 
 
 def sort(seq):
-    n = len(seq)
+    seq_length = len(seq)
     i = 0
     j = 1
-    end = n - 1
+    end = seq_length - 1
     while i < end:
         bubble_largest_element(end, i, j, seq)
 
@@ -21,15 +21,15 @@ def sort(seq):
         i = 0
         j = 1
 
-def bubble_largest_element(end, i, j, seq):
-    while j <= end:
+def bubble_largest_element(current_iteration_last_index, current_element_pointer, next_element_pointer, seq):
+    while next_element_pointer <= current_iteration_last_index:
         # swap check
-        if seq[i] > seq[j]:
-            temp = seq[i]
-            seq[i] = seq[j]
-            seq[j] = temp
+        if seq[current_element_pointer] > seq[next_element_pointer]:
+            temp = seq[current_element_pointer]
+            seq[current_element_pointer] = seq[next_element_pointer]
+            seq[next_element_pointer] = temp
 
         # move i and j to the next 2 element
-        j += 1
-        i += 1
+        next_element_pointer += 1
+        current_element_pointer += 1
 
