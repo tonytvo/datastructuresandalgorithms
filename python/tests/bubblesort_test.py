@@ -1,4 +1,3 @@
-import pytest
 from src.bubblesort import sort
 import src.bubblesort as bubblesort
 
