@@ -13,6 +13,9 @@ Below is a structured guide on **how to capture, organize, and deepen your algor
 Use a consistent template for each algorithm or data structure.
 
 
+
+
+
 Here’s a proven structure (works in Notion, Obsidian, or even a GitHub repo):
 
 | Section                          | What to Record                           | Example                                                                           |
