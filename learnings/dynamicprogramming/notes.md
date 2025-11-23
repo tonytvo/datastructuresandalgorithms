@@ -1,6 +1,6 @@
 # unsorted
 
-- extract info from [dsa-notes](./dsa-oct-12-2025.excalidraw)
+- extract info from [dsa-notes](dsa-oct-12-2025.excalidraw)
 
 That’s a fantastic starting point — you’ve picked three of the most **widely respected resources** for learning and visualizing algorithms. To **document your learnings and insights from algorithm design effectively**, you want a system that balances *theory comprehension*, *visual intuition*, and *implementation fluency*.
 

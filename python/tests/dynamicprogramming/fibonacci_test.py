@@ -1,6 +1,6 @@
 from src.dynamicprogramming.fibonaccii import Fibonacci
 
-class TestBubbleSort:
+class TestFibonacci:
     def test_fibonacci_5(self):
         fib = Fibonacci()
         assert fib.calc(5) == 5

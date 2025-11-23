@@ -1,2 +1,0 @@
-- what's the programming paradigm?
-  - understand the various patterns? (like 20 patterns) 
