@@ -22,4 +22,19 @@
 
 - counting bits (leetcode 338)[https://leetcode.com/problems/counting-bits/description/]
 
+## greedy problem
+
+- https://leetcode.com/problems/longest-palindrome/description/
+
 ## problem with 2 dp array
+
+
+# Questions and Answers
+- what is dynamic programming?
+  - Dynamic programming is a method for solving complex problems by breaking them down into simpler subproblems. It is applicable when the subproblems overlap and optimal substructure exists.
+- what is greedy algorithm?
+  - A greedy algorithm is an algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most "immediate"/best benefit. Greedy algorithms do not always produce optimal solutions for all problems.
+  - we make the greedy choice at each step with the hope of finding the global optimum.
+  - it has subproblem but they do not have optimal sub-structure
+- what does it mean to have optimal sub-structure?
+  - A problem exhibits optimal substructure if an optimal solution to the problem can be constructed efficiently from optimal solutions of its subproblems.
