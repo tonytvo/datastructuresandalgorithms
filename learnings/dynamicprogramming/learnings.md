@@ -27,6 +27,7 @@
 - https://leetcode.com/problems/longest-palindrome/description/
 
 ## problem with 2 dp array
+- todo for future, we want to go back to this 
 
 
 # Questions and Answers
